@@ -7,7 +7,7 @@ cask "appear" do
   desc "Summon any app with a keyboard shortcut or multi-key chord"
   homepage "https://github.com/JackUait/appear"
 
-  depends_on macos: ">= :sequoia"
+  depends_on macos: :sequoia
 
   app "Appear.app"
 
